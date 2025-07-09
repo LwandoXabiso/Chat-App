@@ -17,21 +17,21 @@
                 <div class="name-details">
                     <div class="field input">
                         <label for="name">First Name</label>
-                        <input type="text" placeholder="First Name"  required>
+                        <input type="text" name ="fname" placeholder="First Name"  required>
                     </div>
                     <div class="field input">
                         <label for="name">Last Name</label>
-                        <input type="text" placeholder="Last Name"  required>
+                        <input type="text" name ="lname" placeholder="Last Name"  required>
                     </div>
                 </div>
                 <div class="field input">
                         <label for="name">Email Address</label>
-                        <input type="text" placeholder="Email Address"  required>
+                        <input type="text" name = "email" placeholder="Email Address"  required>
                         <i class="fas fa-envelope"></i>
                     </div>
                     <div class="field input">
                         <label for="name">Password</label>
-                        <input type="password" placeholder="Enter new Password"  required>
+                        <input type="password" name="password" placeholder="Enter new Password"  required>
                         <i class="fas fa-eye"></i>
                     </div>
                     <div class="field image">
