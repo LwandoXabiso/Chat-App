@@ -17,8 +17,9 @@ continueBtn.onclick = ()=>{
                 if(data === "success"){
 
                 }else{
-                    errorText.display = "block";
+                    errorText.style.display = "block";
                     errorText.textContent = data;
+                    location.href = "users.php";
                 }
             }
         }
